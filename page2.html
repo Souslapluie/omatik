@@ -2,30 +2,50 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title> Parcours tremplin numérique de Toulon : Accueil </title>
+    <meta name = "viewport" content="width=device-width"/>
+		<link rel="stylesheet" href="style.css">
+		<title> Parcours tremplin numérique de Toulon : Bienvenue</title>
 	</head>
   <body>
-
-    <header>
+    <header id="page2_head">
       <img src="logo o'matik.png" />
       <img src="" />
-        <!-- /!\à rajouter/!\ barre de recherche-->
+
+      <label for="site_search">Recherche sur le site:</label>
+      <input type="search" id="site_search" name="q"
+       aria-label="Search through site content">
+      <button id="button_search">Chercher</button>
     </header>
 
     <nav>
       <ul>
-        <li>Newsletters</li>
-        <li>Nos Projets</li>
-        <li>Notre Equipe</li>
-        <li>Nous Contacter</li>
+        <li class="navig">Newsletters</li>
+        <li class="navig">Nos Projets</li>
+        <li class="navig">Notre Equipe</li>
+        <li class="navig">Nous Contacter</li>
       </ul>
     </nav>
 
-    <div> <!--corps de la page-->
-      <ul id="apercu">
-        
+    <div id="page2_part1">
+      <ul id="grp_apercu">
+        <li class="unité_apercu"></li>
+        <li class="unité_apercu"></li>
+        <li class="unité_apercu"></li>
+        <li class="unité_apercu"></li>
       </ul>
     </div>
 
+    <div id="page2_part2">
+      <!-- ??? -->
+    </div>
+
+    <footer>
+      <ul id=pied_page2>
+         <li class="Page2_aVoir"></li>
+         <li class="Page2_aVoir"></li>
+         <li class="Page2_aVoir"></li>
+         <li class="Page2_aVoir"></li>
+      </ul>  <!-- ???????? -->
+    </footer>
 	</body>
 </html>
