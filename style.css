@@ -34,7 +34,7 @@ nav{
 @media screen and (min-width: 481px){
   .navig{
     color: #229537;
-    
+
     display: inline;
     float: left;
     margin-top: 2%;
@@ -55,6 +55,10 @@ nav{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+  }
+
+  .header__icon{
+    visibility: hidden;
   }
  }
 
