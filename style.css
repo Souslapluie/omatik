@@ -34,12 +34,13 @@ nav{
 @media screen and (min-width: 481px){
   .navig{
     color: #229537;
-      display: inline;
-      float: left;
-      margin-top: 2%;
-      margin-bottom: 2%;
-      margin-left: 7%;
-      margin-right: 7%;
+    
+    display: inline;
+    float: left;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 7%;
+    margin-right: 7%;
   }
 
   .menu{
@@ -48,9 +49,9 @@ nav{
     overflow: auto;
   }
 
-  li a {
+  nav li a {
     display: block;
-    color: white;
+    color: #229537;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -67,7 +68,7 @@ nav{
      bottom: 0;
      overflow-y: auto;
      background-color: #333;
-     color: white;
+     color: #229537;
      width: 200px;
      transform: translateX(5px);
      transform: scale(0);
@@ -78,8 +79,8 @@ nav{
 
    }
 
-   li a{
-     color: white;
+   nav li a{
+     color: #229537;
      display: block;
      height: 40px;
      text-align: center;
