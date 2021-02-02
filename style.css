@@ -36,6 +36,10 @@ nav{
   background-color: #e9d400;
 }
 
+#testAgain{
+  list-style-type: none;
+}
+
 @media screen and (min-width: 481px){
   .navig{
     color: #229537;
@@ -43,8 +47,8 @@ nav{
     float: left;
     margin-top: 2%;
     margin-bottom: 2%;
-    margin-left: 7%;
-    margin-right: 7%;
+    margin-left: 3%;
+    margin-right: 3%;
   }
 
   .menu{
@@ -72,14 +76,22 @@ nav{
     font-size: 200%;
   }
 
-  .header__icon{
+  /*.header__icon{
     visibility: hidden;
+  }*/
+
+  #burger{
+    display: none;
   }
 
   .logo2{
 	   max-width: 40%;
-     max-height: 500px;
+     max-height: 300px;
 	   height: auto;
+  }
+
+  #page2_oeuf{
+    float: right;
   }
 }
 
