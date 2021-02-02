@@ -19,6 +19,11 @@ h3{
 
 }
 
+.logo {
+  height:100px;
+  width:100px;
+}
+
 header{
   background-color: #ec8b00;
 }
