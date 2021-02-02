@@ -52,8 +52,19 @@ nav{
     display: block;
     color: #229537;
     text-align: center;
-    padding: 14px 16px;
+    padding: 4px 6px;
     text-decoration: none;
+  }
+
+  nav li {
+    border-radius: 50%;
+    border: hidden;
+    font-size: 150%;
+  }
+
+  nav li:hover{
+    background-color: #ffb738;
+    font-size: 200%;
   }
 
   .header__icon{
@@ -77,8 +88,6 @@ nav{
      top: 0;
      bottom: 0;
      overflow-y: auto;
-     background-color: #333;
-     color: #229537;
      width: 200px;
      transform: translateX(5px);
      transform: scale(0);
@@ -103,7 +112,7 @@ nav{
    .header__icon{
      position: relative;
      display: block;
-     float: left;
+     float: center;
      width: 50px;
      height: 66px;
      cursor: pointer;
@@ -122,10 +131,18 @@ nav{
          0 22px 0 1px white;
      }
 
+     #header__icon:hover + #test{
+       display: block;
+     }
+
      .logo2{
    	   max-width: 40%;
        max-height: 200px;
    	   height: auto;
+     }
+
+     #test2{
+       background-color: #e9d400;
      }
 
  }
