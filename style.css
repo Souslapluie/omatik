@@ -34,7 +34,6 @@ nav{
 @media screen and (min-width: 481px){
   .navig{
     color: #229537;
-
     display: inline;
     float: left;
     margin-top: 2%;
@@ -60,7 +59,14 @@ nav{
   .header__icon{
     visibility: hidden;
   }
- }
+
+  .logo2{
+	   max-width: 40%;
+     max-height: 500px;
+	   height: auto;
+  }
+}
+
 
  @media screen and (max-width:480px)
  {
@@ -125,7 +131,7 @@ nav{
 /** Test du CSS pour les aperçus newsletter **/
 #page2_part2{
   background-color: #ec8b00;
-  
+
   .card {
   display: grid;
   grid-template-columns: 300px;
@@ -141,7 +147,7 @@ nav{
   cursor: pointer;
   margin:30px;
 }
-  
+
 .card-image {
   grid-area: image;
   background: url("images/img1.jpg");
@@ -168,7 +174,7 @@ nav{
   font-size:28px;
 }
 .card-stats {
-  grid-area: stats; 
+  grid-area: stats;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
