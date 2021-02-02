@@ -19,7 +19,7 @@ h3{
 
 }
   /* Début de zone ajoutée par Adrien */
-  
+
 .logo {
   height:100px;
   width:100px;
@@ -28,6 +28,45 @@ h3{
 td {
     border: 1px solid rgb(190, 190, 190);
     padding: 10px;
+}
+
+.Twitter {
+		height:50px;
+		width:50px;
+
+		-webkit-animation: spin 1.5s linear infinite;
+  -moz-animation: spin 1.5s linear infinite;
+  animation: spin 1.5s linear infinite;
+
+	}
+
+@-moz-keyframes spin {
+  100% { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+  100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+  100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+	.Facebook {
+		height:50px;
+		width:50px;
+
+		-webkit-animation: spinda 1.5s linear infinite;
+  -moz-animation: spinda 1.5s linear infinite;
+  animation: spinda 1.5s linear infinite;
+	}
+
+@-moz-keyframes spinda {
+  100% { -moz-transform: rotate(-360deg); }
+}
+@-webkit-keyframes spinda {
+  100% { -webkit-transform: rotate(-360deg); }
+}
+@keyframes spinda {
+  100% { -webkit-transform: rotate(-360deg); transform: rotate(-360deg); }
 }
 
   /* Fin de zone ajoutée par Adrien */
