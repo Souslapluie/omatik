@@ -128,9 +128,9 @@ nav{
   background-color: #ec8b00;
 }
 
-/** Test du CSS pour les aperçus newsletter **/
+/** Test du CSS pour les aperçus newsletter
 #page2_part2{
-  background-color: #ec8b00;
+  background-color: #ec8b00;**/
 
   .card {
   display: grid;
