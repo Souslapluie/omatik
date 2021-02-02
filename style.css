@@ -18,11 +18,19 @@ h2{
 h3{
 
 }
-
+  /* Début de zone ajoutée par Adrien */
+  
 .logo {
   height:100px;
   width:100px;
 }
+
+td {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px;
+}
+
+  /* Fin de zone ajoutée par Adrien */
 
 header{
   background-color: #ec8b00;
