@@ -96,36 +96,29 @@ nav{
     margin-bottom: 2%;
     margin-left: 3%;
     margin-right: 3%;
+    border-radius: 50%;
+    border: hidden;
+    font-size: 150%;
   }
 
-  .menu{
+  #menu{
     margin: 0%;
     padding: 0%;
     overflow: auto;
   }
 
-  nav li a {
-    display: block;
+  #test .navig a {
+    display: inline;
     color: #229537;
     text-align: center;
     padding: 4px 6px;
     text-decoration: none;
   }
 
-  nav li {
-    border-radius: 50%;
-    border: hidden;
-    font-size: 150%;
-  }
-
-  nav li:hover{
+  #test .navig:hover{
     background-color: #ffb738;
-    font-size: 200%;
+    font-size: 160%;
   }
-
-  /*.header__icon{
-    visibility: hidden;
-  }*/
 
   #burger{
     display: none;
@@ -145,7 +138,7 @@ nav{
 
  @media screen and (max-width:480px)
  {
-   input[type=checkbox] {
+   #myCheckbox1 {
     -webkit-appearance: none;
     -moz-appearance: none;
     -ms-appearance: none;
@@ -161,7 +154,8 @@ nav{
      color : #229537;
    }
 
-   ul li ul li a{
+   /* ul li ul li a */
+   #testAgain #burger #burgerMenu .Bnavig a {
      color: #229537;
      display: block;
      padding: 15px;
@@ -172,18 +166,20 @@ nav{
      text-decoration: none;
    }
 
-   ul li ul li a:hover{
+   /* ul li ul li a:hover */
+   #testAgain #burger #burgerMenu .Bnavig a:hover {
      background-color: #ffb738;
    }
 
-   ul li ul {
+   /*ul li ul*/
+  #testAgain #burger #burgerMenu {
      padding: 0px;
      list-style-type: none;
      border: hidden;
      border-radius: 20px;
    }
 
-   label{
+   #label_colorT{
      color: #ffb738;
    }
 
