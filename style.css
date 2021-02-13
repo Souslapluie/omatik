@@ -18,58 +18,6 @@ h2{
 h3{
 
 }
-  /* Début de zone ajoutée par Adrien */
-
-.logo {
-  height:100px;
-  width:100px;
-}
-
-td {
-    border: 1px solid rgb(190, 190, 190);
-    padding: 10px;
-}
-
-.Twitter {
-		height:50px;
-		width:50px;
-
-		-webkit-animation: spin 1.5s linear infinite;
-  -moz-animation: spin 1.5s linear infinite;
-  animation: spin 1.5s linear infinite;
-
-	}
-
-@-moz-keyframes spin {
-  100% { -moz-transform: rotate(360deg); }
-}
-@-webkit-keyframes spin {
-  100% { -webkit-transform: rotate(360deg); }
-}
-@keyframes spin {
-  100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
-}
-
-	.Facebook {
-		height:50px;
-		width:50px;
-
-		-webkit-animation: spinda 1.5s linear infinite;
-  -moz-animation: spinda 1.5s linear infinite;
-  animation: spinda 1.5s linear infinite;
-	}
-
-@-moz-keyframes spinda {
-  100% { -moz-transform: rotate(-360deg); }
-}
-@-webkit-keyframes spinda {
-  100% { -webkit-transform: rotate(-360deg); }
-}
-@keyframes spinda {
-  100% { -webkit-transform: rotate(-360deg); transform: rotate(-360deg); }
-}
-
-  /* Fin de zone ajoutée par Adrien */
 
 header{
   background-color: #ec8b00;
@@ -96,29 +44,36 @@ nav{
     margin-bottom: 2%;
     margin-left: 3%;
     margin-right: 3%;
-    border-radius: 50%;
-    border: hidden;
-    font-size: 150%;
   }
 
-  #menu{
+  .menu{
     margin: 0%;
     padding: 0%;
     overflow: auto;
   }
 
-  #test .navig a {
-    display: inline;
+  nav li a {
+    display: block;
     color: #229537;
     text-align: center;
     padding: 4px 6px;
     text-decoration: none;
   }
 
-  #test .navig:hover{
-    background-color: #ffb738;
-    font-size: 160%;
+  nav li {
+    border-radius: 50%;
+    border: hidden;
+    font-size: 150%;
   }
+
+  nav li:hover{
+    background-color: #ffb738;
+    font-size: 200%;
+  }
+
+  /*.header__icon{
+    visibility: hidden;
+  }*/
 
   #burger{
     display: none;
@@ -138,68 +93,68 @@ nav{
 
  @media screen and (max-width:480px)
  {
-   #myCheckbox1 {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    -ms-appearance: none;
+
+   .menu{
+     position: relative;
+     right: 0;
+     top: 0;
+     bottom: 0;
+     overflow-y: auto;
+     width: 200px;
+     transform: translateX(5px);
+     transform: scale(0);
+     transition: all 300ms ease-in-out;
    }
 
-   #burgerMenu {
-     display: none;
+   .navig{
+
    }
 
-   #myCheckbox1:checked ~ #burgerMenu {
-     display: block;
-     background-color: #e9d400;
-     color : #229537;
-   }
-
-   /* ul li ul li a */
-   #testAgain #burger #burgerMenu .Bnavig a {
+   nav li a{
      color: #229537;
      display: block;
-     padding: 15px;
-     font-size: 130%;
+     height: 40px;
      text-align: center;
-     /*line-height: 40px;*/
+     line-height: 40px;
+     border-bottom: 1px solid #303f9f;
+     transform: scale(0);
      transition: all 300ms ease-in-out;
-     text-decoration: none;
-   }
-
-   /* ul li ul li a:hover */
-   #testAgain #burger #burgerMenu .Bnavig a:hover {
-     background-color: #ffb738;
-   }
-
-   /*ul li ul*/
-  #testAgain #burger #burgerMenu {
-     padding: 0px;
-     list-style-type: none;
-     border: hidden;
-     border-radius: 20px;
-   }
-
-   #label_colorT{
-     color: #ffb738;
    }
 
    .header__icon{
      position: relative;
-  /*   display: block; */
+     display: block;
      float: center;
      width: 50px;
      height: 66px;
      cursor: pointer;
    }
 
-    .logo2{
-   	  max-width: 40%;
-      max-height: 200px;
-   	  height: auto;
-    }
+     .header__icon:after{
+       content: '';
+       position: absolute;
+       display: block;
+       width: 1rem;
+       height: 0;
+       top: 16px;
+       left: 15px;
+       box-shadow: 0 10px 0 1px white,
+         0 16px 0 1px white,
+         0 22px 0 1px white;
+     }
 
-     #test{
-       display: none;
+     #header__icon:hover + #test{
+       display: block;
+     }
+
+     .logo2{
+   	   max-width: 40%;
+       max-height: 200px;
+   	   height: auto;
+     }
+
+     #test2{
+       background-color: #e9d400;
      }
 
  }
