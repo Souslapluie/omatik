@@ -1,18 +1,24 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8" />
-		<title> Parcours tremplin numérique de Toulon : Accueil </title>
-		<link rel="stylesheet" href="style.css">
-	</head>
+<head>
+	<meta charset="utf-8">
+<title> Parcours Tremplin Numérique : Toulon </title>
+</head>
 <body>
+
+	<img id="TLN" src="images/Toulon.jpg">
+
+	 <div id="centrage1">
+
 		<img class="logo" src="images/logo o'matik.png">
-		<img class="logo" src="images/OEUF.PNG">
+		<img class="logo" src="images/OEUF.PNG"> </div> 
 
-<table>	<thead>
+	<div id="centrage2">
+<table>
 
+		<thead>
 			<tr>
-				<th colspan="2"> Nuage partenaire "hover" </th>
+				<th colspan="2"> Nos partenaires : </th>
 			</tr>
 		</thead>
 
@@ -25,14 +31,173 @@
 
 	<tr>
 		<td> <a href="https://www.la-seyne.fr/"> <img src="images/seyne_sur_mer.png"> </a> </td>
-		<td> <a href="https://www.ampmetropole.fr/"> <img src="images/amp.png"> </a> &nbsp; &nbsp;
-			&nbsp; &nbsp; <a href="https://www.caf.fr/allocataires/caf-du-var/accueil"> <img src="images/caf.png"> </a> </td>
+		<td>  <a href="https://www.ampmetropole.fr/"> <img src="images/amp.png"> </a> &nbsp; &nbsp; 
+		&nbsp; &nbsp; <a href="https://www.caf.fr/allocataires/caf-du-var/accueil"> <img src="images/caf.png"> </a> </td>
 	</tr>
 
-</tbody> </table> </br>
+</tbody> </table> </div>
 
-<a href="https://twitter.com/toulon_o"> <img class="Twitter" src="images/Twitter_bird.svg.png"> </a>
-<a href="https://www.youtube.com/watch?v=qmRnuDwDtJg"> <img class="Facebook" src="images/LogoFB.jpg"> </a>
+</br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br>
 
-	</body>
+<h1> <u> Présentation de la formation Tremplin Numérique </u> </h1>
+
+	<a href="https://twitter.com/toulon_o"> <img id="Twitter" src="images/Twitter_bird.svg.png"> </a>
+	<a href="https://www.youtube.com/watch?v=qmRnuDwDtJg"> <img id="Facebook" src="images/LogoFB.jpg"> </a>
+
+<pre class="texte"> <h2> <i> Qui sommes-nous ? </i> </h2>
+"Les Petits Débrouillards" est considéré comme un mouvement et / ou une association
+ ayant pour but le developpement de l'esprit critique, la remise en question
+ de certaines de nos certitudes ainsi que d'une aide pour
+ l'intégration à la vie active.
+
+Présents dans de multiples pays et continents, 
+<h2> <i> Que faisons-nous ? </i> </h2>
+Dans cette formation, nous pouvons dire que nous sommes un peu "touche-à-tout" :
+Au fur et à mesure des séances, différentes branches de l'informatique sont
+ explorées, afin que chacun puisse savoir ce qu'il préfère et,
+ éventuellement, débuter des projets de plus en plus sérieux
+ dans leur(s) domaine(s) favori(s). 
+<h2> <i> Notre équipe : </i> </h2>
+Les participants de cette formation "Parcours Tremplin Numérique"
+ se situent dans la région PACA, dans le sud de la France. 
+
+</pre>
+
+
+<style>
+
+	.texte {
+		display:block;
+		text-align:center;
+		font-size:20px;
+		border:2px solid white;
+		margin-left:12%;
+		margin-right:12%;
+	}
+
+	body {
+		background-color:brown;
+		color:white;
+	}
+
+	table {
+		border: 4mm ridge rgba(170, 50, 220, .6);
+	}
+
+   #centrage2 img:hover {
+   	transform: scale(1.23);
+   }
+
+	h1 {
+		text-align:center;
+		font-size:50px;
+		color:black;
+	}
+
+	#centrage1 {
+		position:relative;
+		left:42%;
+	}
+
+	#centrage2 {
+	position:absolute;
+	left:35%;
+	background-color: rgb(31, 31, 31);
+	margin-right:71%;
+}
+	.logo {
+		height:100px;
+		width:100px;
+	}
+
+	th {
+		font-size:25px;
+	}
+
+	td {
+    padding: 5px;
+}
+
+	#TLN {
+		z-index:-1;
+		position:absolute;
+		right:-0.5px;
+		height:65%;
+		width:150%;
+		margin-top:-25px;
+	}
+	
+	#Twitter {
+		height:50px;
+		width:50px;
+		position:absolute;
+		left:400px;
+		top:530px;
+
+		-webkit-animation: spin 1.5s linear infinite;
+  -moz-animation: spin 1.5s linear infinite;
+  animation: spin 1.5s linear infinite;
+
+	}
+
+@-moz-keyframes spin {
+  100% { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+ 100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+  100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+	#Facebook {
+		height:50px;
+		width:50px;
+		position:absolute;
+		left:1130px;
+		top:530px;
+		border-radius:5px;
+
+
+		-webkit-animation: spinda 1.5s linear infinite;
+  -moz-animation: spinda 1.5s linear infinite;
+  animation: spinda 1.5s linear infinite;
+	}
+
+@-moz-keyframes spinda {
+  100% { -moz-transform: rotate(-360deg); }
+}
+@-webkit-keyframes spinda {
+  100% { -webkit-transform: rotate(-360deg); }
+}
+@keyframes spinda {
+  100% { -webkit-transform: rotate(-360deg); transform: rotate(-360deg); }
+}
+
+#centrage2::before,
+#centrage2::after {
+  filter:blur(5px);
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(45deg, #ff0000, #00f0f0, #00ff00, #0000ff, #ff0000, #00f0f0, #00ff00, #0000ff, #f00f0f);
+  width: 100%;
+  height: 100%;
+  transform: scale(1.03);
+  z-index: -1;
+  background-size: 500%;
+  animation: animate 20s infinite;
+}
+
+@keyframes animate {
+	0% {background-position: 0 0;}
+	50% {background-position: 300% 0;}
+	100% {background-position: 0 0;}
+}
+
+</style>
+
+
+</body>
 </html>
